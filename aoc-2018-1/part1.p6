@@ -10,6 +10,6 @@ sub to-int($str) {
 }
 
 sub MAIN() {
-    my @input = "part1-input".IO.lines;
+    my @input = "input".IO.lines;
     say @input.map(&to-int).sum;
 }
